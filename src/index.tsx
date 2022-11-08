@@ -7,6 +7,7 @@ import reportWebVitals from "./reportWebVitals"
 import { HashRouter, Routes, Route } from "react-router-dom"
 import { Dungeon } from "./types"
 import { DungeonPage } from "./components/DungeonPage"
+import { Guide } from "./Guide"
 
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement)
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/guide" element={<Guide />} />
         {(Object.keys(Dungeon) as Dungeon[]).map((d, i) => (
           <Route key={d} path={`/${d}`} element={<DungeonPage dungeon={d} />} />
         ))}

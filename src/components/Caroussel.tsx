@@ -7,10 +7,8 @@ export function Caroussel() {
       style={{
         display: "flex",
         flexWrap: "wrap",
-        margin: "5px 20px 5px 20px",
-        backgroundColor: "rgba(255,255,255,0.7)",
       }}
-      className="nes-container"
+      className="nes-container my-container"
     >
       {(Object.keys(Dungeon) as Dungeon[]).map((dungeon) => (
         <DungeonThumbnail key={dungeon} dungeon={dungeon} />
