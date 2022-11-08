@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import { useEffect, useState } from "react"
 import Design from "../core/design"
 import { Dungeon, DungeonData } from "../types"
