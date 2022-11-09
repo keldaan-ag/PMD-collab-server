@@ -107,8 +107,13 @@ export function Sample(props: { dungeon: Dungeon }) {
         />
         <p>{frequency}</p>
       </div>
-      <div className="nes-container" style={{ padding: "0px" }}>
-        <canvas width={1350} height={650} id="sample"></canvas>
+      <div className="nes-container" style={{ padding: "0px", width: "73vw" }}>
+        <canvas
+          width={1350}
+          height={650}
+          id="sample"
+          style={{ width: "72.5vw" }}
+        ></canvas>
       </div>
     </div>
   )

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom"
 import { Dungeon, DungeonData } from "../types"
 
 export function TilesetMetadata(props: { dungeon: Dungeon }) {
@@ -38,7 +37,6 @@ export function TilesetMetadata(props: { dungeon: Dungeon }) {
           Download
         </button>
       </div>
-      <Link to={"/guide"}>How to use metadata ?</Link>
       <textarea
         value={DungeonData[props.dungeon].tileset}
         readOnly={true}
