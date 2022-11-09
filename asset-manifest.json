@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pokemon-mystery-dungeon-tilesets/static/css/main.fd469f06.css",
+    "main.js": "/pokemon-mystery-dungeon-tilesets/static/js/main.5969b9f9.js",
+    "static/js/787.4d87ee3e.chunk.js": "/pokemon-mystery-dungeon-tilesets/static/js/787.4d87ee3e.chunk.js",
+    "static/media/background.png": "/pokemon-mystery-dungeon-tilesets/static/media/background.72174b13a113d67468dd.png",
+    "index.html": "/pokemon-mystery-dungeon-tilesets/index.html",
+    "main.fd469f06.css.map": "/pokemon-mystery-dungeon-tilesets/static/css/main.fd469f06.css.map",
+    "main.5969b9f9.js.map": "/pokemon-mystery-dungeon-tilesets/static/js/main.5969b9f9.js.map",
+    "787.4d87ee3e.chunk.js.map": "/pokemon-mystery-dungeon-tilesets/static/js/787.4d87ee3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fd469f06.css",
+    "static/js/main.5969b9f9.js"
+  ]
+}
