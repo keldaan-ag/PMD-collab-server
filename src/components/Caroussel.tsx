@@ -29,7 +29,7 @@ export function Caroussel() {
           justifyContent: "center",
         }}
       >
-        {(Object.keys(Dungeon) as Dungeon[]).map((dungeon) => {
+        {(Object.keys(Dungeon) as Dungeon[]).sort().map((dungeon) => {
           if (nameFilter === "") {
             return <DungeonThumbnail key={dungeon} dungeon={dungeon} />
           } else {
